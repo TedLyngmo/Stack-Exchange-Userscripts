@@ -21,13 +21,16 @@
 /* Spacing between lines, normal text: */
 .s-prose {
     /* 1.3 was the old line-height, 1.5 is the new line-height */
-    line-height: 1.3 !important;
+    line-height: 1.4 !important;
 }
 
 /* Spacing between lines, code blocks: */
 .s-prose pre:not(.s-code-block) {
     /* 1.3 was the old line-height, 1.30769231; is the new line-height */
-    line-height: 1.3 !important;
+    line-height: 1.25 !important;
+
+    /* Old background-color: #EFF0F1; new: #F6F6F6; */
+    background-color: #E4E6E8; /* same as inline code/code in comments */
 }
 
 /* Spacing between separate elements: */
