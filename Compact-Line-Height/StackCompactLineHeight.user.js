@@ -30,7 +30,7 @@
     line-height: 1.25 !important;
 
     /* Old background-color: #EFF0F1; new: #F6F6F6; */
-    background-color: #E4E6E8; /* same as inline code/code in comments */
+    background-color: #E4E6E8 !important; /* same as inline code/code in comments */
 }
 
 /* Spacing between separate elements: */
